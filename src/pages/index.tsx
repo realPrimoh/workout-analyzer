@@ -431,9 +431,6 @@ export default function Home() {
                 display: "flex",
                 flexDirection: "column",
                 alignItems: "center",
-                "&:hover": {
-                  cursor: "pointer",
-                },
                 opacity
               }} component="label">
                 <input
