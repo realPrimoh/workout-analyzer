@@ -256,7 +256,7 @@ export default function Home() {
   const [selectedYear, setSelectedYear] = useState<number | null>(null);
   const [filteredWeeks, setFilteredWeeks] = useState<Week[]>([]);
   const [dragging, setDragging] = useState(false);
-  
+
   const getDefault = async () => {
     try {
       const response = await fetch("/strong-march-2023.csv");
@@ -411,7 +411,7 @@ export default function Home() {
             </List>
           </Paper>
         ) : (
-          <div style={{display: "flex", flexDirection: "column"}}>
+          <div style={{ display: "flex", flexDirection: "column" }}>
             <div
               style={{
                 display: "flex",
@@ -443,8 +443,8 @@ export default function Home() {
               </Paper>
             </div>
             <Paper className="container"
-                onClick={() => getDefault()}
-              >
+              onClick={() => getDefault()}
+            >
               <Typography>
                 Don't have a file to upload?
                 Click this to use Priyam's data.
@@ -456,5 +456,3 @@ export default function Home() {
     </Grid>
   );
 }
-
-const styles = StyleSheet
