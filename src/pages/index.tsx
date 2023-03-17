@@ -446,8 +446,8 @@ export default function Home() {
               onClick={() => getDefault()}
             >
               <Typography>
-                Don't have a file to upload?
-                Click this to use Priyam's data.
+                Don`&apos;`t have a file to upload?
+                Click this to use Priyam`&apos;`s data.
               </Typography>
             </Paper>
           </div>
